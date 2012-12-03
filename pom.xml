@@ -25,7 +25,7 @@
 
   <groupId>org.jszip.redist</groupId>
   <artifactId>jquery</artifactId>
-  <version>1.6.3</version>
+  <version>1.6.4-SNAPSHOT</version>
   <packaging>jszip</packaging>
 
   <name>jQuery</name>
