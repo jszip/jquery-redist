@@ -25,7 +25,7 @@
 
   <groupId>org.jszip.redist</groupId>
   <artifactId>jquery</artifactId>
-  <version>1.8.0</version>
+  <version>1.8.1-SNAPSHOT</version>
   <packaging>jszip</packaging>
 
   <name>jQuery</name>
@@ -47,7 +47,7 @@
     <connection>scm:git:git://github.com/jszip/jquery-redist.git</connection>
     <developerConnection>scm:git:git@github.com:jszip/jquery-redist.git</developerConnection>
     <url>http://github.com/jszip/jquery-redist/tree/master/</url>
-    <tag>jquery-1.8.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>github</system>
