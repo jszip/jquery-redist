@@ -5,7 +5,7 @@ require 'nokogiri'
 require 'json'
 require 'open-uri'
 
-current = Gem::Version.new(JSON.parse(open('https://raw.github.com/jquery/jquery/master/package.json').read)["version"])
+current = Gem::Version.new(JSON.parse(open('https://raw.github.com/jquery/jquery/master/package.json').read)["version"].gsub("-","."))
 
 maven = Gem::Version.new(Nokogiri::XML(File.open(File.expand_path('../pom.xml', __FILE__))).remove_namespaces!.xpath("/project/version").first.content().sub /-SNAPSHOT/,"")
 
